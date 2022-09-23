@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Balet Parking oficinas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdissonGirald0/Balet- Parking-Api.git"
+  },
+  "keywords": [
+    "es"
+  ],
+  "author": "edisson Giraldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdissonGirald0/Balet- Parking-Api/issues"
+  },
+  "homepage": "https://github.com/EdissonGirald0/Balet- Parking-Api#readme"
+}
