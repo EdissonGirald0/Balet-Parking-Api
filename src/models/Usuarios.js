@@ -8,7 +8,19 @@ module.exports = (sequelize) => {
         },
         celular: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
+            unique: true,
+            primaryKey: true,
         },
+        pass: {
+            type: DataTypes.NUMBER,
+            allowNull: false,
+
+        },
+        asistencia: {
+            type: DataTypes.BOOLEAN,
+            defaultValue: false,
+        },
+
     });
 };

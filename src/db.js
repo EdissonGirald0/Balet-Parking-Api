@@ -34,7 +34,7 @@ const { Usuarios, Parqueaderos } = sequelize.models;
 
 // Aca vendrian las relaciones
 // Product.hasMany(Reviews);
-Usuarios.belongsToMany(Parqueaderos, {through: 'parquederos-usuarios'});
+Usuarios.belongsToMany(Parqueaderos, {through: 'parqueaderos-usuarios'});
 Parqueaderos.belongsToMany(Usuarios, {through: 'usuarios-parqueaderos'});
 
 module.exports = {
